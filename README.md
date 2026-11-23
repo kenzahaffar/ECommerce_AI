@@ -51,27 +51,41 @@ ECommerce_AI/
 │   └── evaluer_rag.py
 ├── tests/
 ├── results/
-├── .env
 ├── .env.example
+├── .gitignore
+├── README.md
 └── requirements.txt
 ```
 
-## 5. Installation
+## 5. Installation sous Ubuntu
 
-Créer et activer l'environnement virtuel :
+### Créer un environnement virtuel
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv .venv
 ```
 
-Installer les dépendances :
+### Activer l'environnement virtuel
+
+```bash
+source .venv/bin/activate
+```
+
+### Installer les dépendances
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Configurer le fichier `.env` avec les paramètres nécessaires :
+### Configurer les variables d'environnement
+
+Créer un fichier `.env` :
+
+```bash
+nano .env
+```
+
+Ajouter les paramètres suivants :
 
 ```env
 MODE=real
@@ -79,7 +93,9 @@ GROQ_API_KEY=votre_cle_api
 GROQ_MODEL=openai/gpt-oss-20b
 ```
 
-Ne jamais publier sa clé API sur GitHub.
+Remplacer `votre_cle_api` par sa propre clé Groq.
+
+Ne jamais publier le fichier `.env` sur GitHub. Il est exclu du dépôt grâce au fichier `.gitignore`.
 
 ## 6. Exécution
 
@@ -95,10 +111,10 @@ http://127.0.0.1:8000/docs
 
 ## 7. Endpoints API
 
-- `GET /health` : vérifier le fonctionnement de l'application.
-- `POST /classify` : classifier une demande.
-- `POST /chat` : répondre à une question avec le RAG.
-- `POST /agent` : utiliser l'agent intelligent et ses outils.
+- GET `/health` : vérifier le fonctionnement de l'application.
+- POST `/classify` : classifier une demande.
+- POST `/chat` : répondre à une question avec le RAG.
+- POST `/agent` : utiliser l'agent intelligent et ses outils.
 
 ## 8. Évaluation
 
@@ -120,6 +136,7 @@ Ces résultats concernent le jeu de données utilisé et ne garantissent pas les
 ## 9. Sécurité et limites
 
 - La clé API est stockée dans le fichier `.env`.
+- Le fichier `.env` est exclu du dépôt Git grâce à `.gitignore`.
 - Les réponses sont structurées et validées avec Pydantic.
 - L'agent utilise trois outils avec un nombre limité d'étapes.
 - La création d'un ticket nécessite une demande explicite du client.
