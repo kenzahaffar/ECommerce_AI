@@ -1,0 +1,122 @@
+[
+  {
+    "message": "Où est ma commande C1001 ?",
+    "categorie_attendue": "commande",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Mon colis est en retard.",
+    "categorie_attendue": "livraison",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Mon paiement a été refusé.",
+    "categorie_attendue": "paiement",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Je veux retourner mon produit.",
+    "categorie_attendue": "retour",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Je souhaite annuler ma commande.",
+    "categorie_attendue": "commande",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Je n'ai pas reçu mon colis.",
+    "categorie_attendue": "livraison",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Ma carte bancaire ne fonctionne pas.",
+    "categorie_attendue": "paiement",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Comment obtenir un remboursement ?",
+    "categorie_attendue": "retour",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Je veux connaître le statut de ma commande.",
+    "categorie_attendue": "commande",
+    "difficulte": "facile",
+    "verification_attendue": false
+  },
+  {
+    "message": "Le livreur n'est toujours pas passé.",
+    "categorie_attendue": "livraison",
+    "difficulte": "moyenne",
+    "verification_attendue": false
+  },
+  {
+    "message": "J'ai été débité deux fois.",
+    "categorie_attendue": "paiement",
+    "difficulte": "moyenne",
+    "verification_attendue": false
+  },
+  {
+    "message": "Le produit reçu ne correspond pas à ma commande.",
+    "categorie_attendue": "retour",
+    "difficulte": "moyenne",
+    "verification_attendue": false
+  },
+  {
+    "message": "Je veux savoir si ma commande C1004 peut être remboursée.",
+    "categorie_attendue": "retour",
+    "difficulte": "moyenne",
+    "verification_attendue": false
+  },
+  {
+    "message": "Mon colis est arrivé endommagé.",
+    "categorie_attendue": "livraison",
+    "difficulte": "moyenne",
+    "verification_attendue": false
+  },
+  {
+    "message": "J'ai payé mais je n'ai reçu aucune confirmation.",
+    "categorie_attendue": "paiement",
+    "difficulte": "moyenne",
+    "verification_attendue": false
+  },
+  {
+    "message": "Je ne comprends pas pourquoi ma commande est bloquée.",
+    "categorie_attendue": "commande",
+    "difficulte": "difficile",
+    "verification_attendue": true
+  },
+  {
+    "message": "Mon compte affiche un montant différent de celui payé.",
+    "categorie_attendue": "paiement",
+    "difficulte": "difficile",
+    "verification_attendue": true
+  },
+  {
+    "message": "Je veux signaler un problème avec mon colis et obtenir une solution.",
+    "categorie_attendue": "livraison",
+    "difficulte": "difficile",
+    "verification_attendue": true
+  },
+  {
+    "message": "Bonjour, pouvez-vous m'aider ?",
+    "categorie_attendue": "autre",
+    "difficulte": "refus",
+    "verification_attendue": true
+  },
+ {
+    "message": "Pouvez-vous me donner des conseils pour préparer un examen ?",
+    "categorie_attendue": "autre",
+    "difficulte": "refus",
+    "verification_attendue": true
+}
+]

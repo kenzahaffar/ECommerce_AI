@@ -1,0 +1,16 @@
+[
+    {
+        "id": "T0001",
+        "client": "Ahmed",
+        "message": "Mon colis est arrivé endommagé.",
+        "categorie": "livraison",
+        "statut": "Ouvert"
+    },
+    {
+        "id": "T0002",
+        "client": "Ahmed",
+        "message": "Mon colis est arrivé endommagé.",
+        "categorie": "livraison",
+        "statut": "Ouvert"
+    }
+]

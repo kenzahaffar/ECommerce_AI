@@ -1,0 +1,22 @@
+# Environnement virtuel
+venv/
+.venv/
+
+# Variables sensibles
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Tests et cache
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db

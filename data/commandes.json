@@ -1,0 +1,34 @@
+[
+    {
+        "id": "C1001",
+        "client": "Ahmed",
+        "produit": "Smartphone Samsung",
+        "statut": "En livraison",
+        "montant": 1200,
+        "livreur": "RapidPost"
+    },
+    {
+        "id": "C1002",
+        "client": "Sara",
+        "produit": "Casque Bluetooth",
+        "statut": "Livrée",
+        "montant": 150,
+        "livreur": "Express"
+    },
+    {
+        "id": "C1003",
+        "client": "Ali",
+        "produit": "Ordinateur portable",
+        "statut": "En préparation",
+        "montant": 2500,
+        "livreur": "Non attribué"
+    },
+    {
+        "id": "C1004",
+        "client": "Meriem",
+        "produit": "Souris sans fil",
+        "statut": "Annulée",
+        "montant": 80,
+        "livreur": "Aucun"
+    }
+]

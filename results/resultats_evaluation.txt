@@ -1,0 +1,42 @@
+E-COMMERCE AI - RESULTATS D'EVALUATION
+
+1. CLASSIFICATION
+
+Nombre d'exemples : 20
+Nombre de classifications correctes : 20
+Accuracy : 100 %
+
+2. VERIFICATION HUMAINE
+
+Exactitude de la verification humaine : 85 %
+Seuil de confiance : 0.70
+
+Regle :
+Une verification humaine est demandee lorsque :
+- La confiance est inferieure a 0.70.
+- La categorie detectee est "autre".
+
+3. COMPARAISON DES PROMPTS
+
+Nombre d'exemples : 20
+
+Prompt 1 : 19/20 (95 %)
+Prompt 2 : 20/20 (100 %)
+
+Difference : 1 exemple supplementaire correctement classe.
+
+4. EVALUATION RAG
+
+Nombre de questions : 5
+Recall@3 : 1.0
+MRR : 1.0
+
+CONCLUSION
+
+Les resultats montrent que le systeme classe correctement les
+20 exemples du dataset. Le deuxieme prompt donne un meilleur
+resultat que le premier. Le RAG retrouve correctement les
+documents pertinents dans les tests effectues.
+
+Ces resultats sont obtenus sur un petit dataset de test et
+ne garantissent pas les memes performances sur des donnees reelles.
